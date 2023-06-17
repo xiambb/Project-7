@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page | Shopify Demo</title>
+    <link rel="icon" type="images/png" href="images/logo.png">
+    <script src="https://kit.fontawesome.com/e6fec5c149.js" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ------------ HEADER ------------- -->
+    <header>
+        <div style="border-bottom: 1px solid #0000004e;">
+            <div id="topMenu" class="container">
+                <div class="">
+                    <a href="index.html" >
+                        <img src="images/logo.png" class="logo" width="75" height="75" title="Shopify Demo" alt="test" >
+                    </a>
+                </div>
+                <div id="topRightMenu">
+                    <div class="toggle-switch">
+                        <label class="switch-label">
+                          <input type="checkbox" class="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                      </div> 
+                    <a href="#">
+                        <i class="fa-solid fa-right-to-bracket" title="Giriş Yap"></i> Giriş Yap
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-user-plus" title="Kayıt Ol"></i> Kayıt Ol
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div  id="bottomMenu"  class="container" >
+                <a href="index.html">Ana Sayfa</a>
+                <a href="items.html">Ürünler</a>
+                <a href="categories.html">Kategoriler</a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container gridContainer">
+        <div>
+            <div class="sidebarSearch" id="sidebar">
+                <input type="Ara..">
+                <button>Gönder</button>
+            </div>
+            <div class="sidebarMenu">
+                <ul  id="sidebarList">
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+                    <span id="text" style="display:none">Test 1</span>
+            </div>
+            <div class="sidebarMenu">
+                <ul  id="sidebarList">
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Unde, sed perferendis.</li>
+                    <li>Ratione, quasi distinctio?</li>
+                    <li>Earum, commodi exercitationem.</li>
+                    <li>Iure, ipsa voluptatem!</li>
+                </ul>
+            </div>
+            <div class="sidebarMenu">
+                <ul  id="sidebarList">
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Unde, sed perferendis.</li>
+                    <li>Ratione, quasi distinctio?</li>
+                    <li>Earum, commodi exercitationem.</li>
+                    <li>Iure, ipsa voluptatem!</li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-1.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-1.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-2.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-1.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-2.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-1.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-2.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card1">
+                        <div>
+                            <a href="#"> <img src="images/features-1.png" class="card1Image"> </a>
+                        </div>
+                        <div class="card1Text">
+                            <span><h3 style="margin: 5px 0 5px 0;">Örnek Başlık</h3></span>
+                            <span><p style="margin: 0;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, praesentium?</p></span>            
+                        </div>
+                    </div>
+                </div>
+                <div aria-label="Page navigation example">
+                    <ul class="pagination d-flex align-items-start justify-content-center">
+                        <li class="page-item "><a class="page-link text-secondary" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                         <li class="page-item"><a class="page-link text-secondary" href="#">Next</a></li>
+                    </ul>                                         
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <footer class="border border-top-1 py-5">
+        <div class="container">
+            <div class="d-flex align-items-start justify-content-center">
+                <div class="sidebarSearch" id="sidebar" style="width: 750px;">
+                    <input type="Ara..">
+                    <button>Gönder</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex align-items-start justify-content-center">
+                <a href=""  type="button" class="btn btn-secondary btn-lg mt-5"> Başa Dön </a>
+            </div>
+        </div>
+        <div class="border border-top-1 mt-5">
+            <div class="container">
+                <div id="faq1">
+                    <div class="p-2 flex-fill ">
+                        <a href="about.html">FAQ</a>
+                    </div>
+                    <div class="p-2 flex-fill ">
+                        <a href="about.html">About Us</a>
+                    </div>
+                    <div class="p-2 flex-fill ">
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                    <div class="p-2 flex-fill ">
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="d-flex justify-content-center mt-3">&copy; 2023 Tüm hakları saklıdır.</p>
+
+
+    
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script> </script>
+</body>
+</header>
+</html>
